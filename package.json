@@ -1,0 +1,18 @@
+{
+    "name": "monorepo-deno-template",
+    "version": "0.1.0",
+    "scripts": {
+      
+        "build": "turbo run build",
+        "dev": "turbo run dev --parallel",
+        "start": "turbo run start --parallel",
+        "lint": "turbo run lint --parallel",
+        "fmt": "turbo run fmt --parallel"
+    },
+    
+    "devDependencies": {
+        "turbo": "latest"
+    },
+    
+    "packageManager": "pnpm@7.29.0"
+}
